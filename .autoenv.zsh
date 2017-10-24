@@ -1,1 +1,1 @@
-source activate word-emb-biomed
+source activate pubmed
