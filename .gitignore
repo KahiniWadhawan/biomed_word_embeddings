@@ -1,4 +1,5 @@
 data_backup/
 .idea/
-pubmed_data_text/
 code/tokenizer/geniass/sentence-count
+code/word2vec/bin/
+full-pubmed-text.txt
