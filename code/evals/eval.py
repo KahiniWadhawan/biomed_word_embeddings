@@ -1,4 +1,5 @@
-import gensim, logging
+#import gensim 
+import logging
 #from gensim.models import word2vec
 import scipy
 from scipy import stats
@@ -6,7 +7,7 @@ import os
 import csv
 import argparse
 
-from glove_eval import distance
+from glove_eval import distance, generate
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
@@ -78,10 +79,11 @@ def perform_glove_tests(args):
             pairs_found = []
             for key in human_means:
                 if key in glove_cosine_sim.keys():
-                    print('key found in both lsts ::', key )
+                    print('found key, glove cosine, human means ::', key, glove_cosine_sim[key], human_means[key])
                     pairs_found.append(key)
-                    glove_cosine_sim_lst.append(float(glove_cosine_sim[key]))
-                    human_means_lst.append(float(human_means[key]))
+                    if glove_cosine_sim[key] != None: 
+                    	glove_cosine_sim_lst.append(float(glove_cosine_sim[key]))
+                    	human_means_lst.append(float(human_means[key]))
             # perform ks test to check whether dist is normal or not
             # print "humans dist :: ",stats.kstest(human_means_lst, 'norm')
             # print "cosine sim dist :: ",stats.kstest(wordvec_cosine_sim_lst, 'norm')
