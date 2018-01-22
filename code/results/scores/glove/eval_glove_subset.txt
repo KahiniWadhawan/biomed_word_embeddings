@@ -1,0 +1,6 @@
+spearman_coveredSimilarPairs - 0.650546717767
+pearson_coveredSimilarPairs  - 0.65336583538
+spearman_coveredRelatedPairs - 0.62751046073
+pearson_coveredRelatedPairs  - 0.628761450102
+entropy_coveredAnalogyPairs  - 0.020141340589
+entropy_coveredBmassPairs    - 1.0124629226

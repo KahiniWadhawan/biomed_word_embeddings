@@ -1,0 +1,24 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+('total, seen, unseen :: ', 347, 344, 3)
+('spearman_coeff :: ', SpearmanrResult(correlation=0.65054671776652362, pvalue=8.9851362783052107e-43))
+('pearson coeff ::', (0.65336583537953086, 2.9982631836948022e-43))
+('for file :: ', 'results/subset_original_files_with_mean/coverdSimilarPairs.csv')
+---------------------------------------------------------------
+('total, seen, unseen :: ', 356, 351, 5)
+('spearman_coeff :: ', SpearmanrResult(correlation=0.62751046073029171, pvalue=7.9619403103447463e-40))
+('pearson coeff ::', (0.62876145010217099, 5.0518314446360814e-40))
+('for file :: ', 'results/subset_original_files_with_mean/coverdRelatedPairs.csv')
+---------------------------------------------------------------
+('total, seen, unseen :: ', 30, 30, 0)
+('entropy :: ', 0.020141340589049796)
+('for file :: ', 'results/subset_original_files_with_mean/coverdAnalogyPairs.csv')
+---------------------------------------------------------------
+('total, seen, unseen :: ', 347, 344, 3)
+('entropy :: ', 1.0124629225963497)
+('for file :: ', 'results/subset_original_files_with_mean/coverdBmassPairs.csv')
+---------------------------------------------------------------
+('res_mean_similar :: ', [0.65054671776652362, 0.65336583537953086])
+('res_mean_related :: ', [0.62751046073029171, 0.62876145010217099])
+('res_wo_mean_analogy :: ', 0.020141340589049796)
+('res_wo_mean_bmass :: ', 1.0124629225963497)
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

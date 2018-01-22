@@ -1,0 +1,26 @@
+2018-01-22 15:21:40,107 : INFO : loading projection weights from word2vec/data/full_pubmed_lowercase-vector-ng10-hs0-dim200-textwin30-subsample4-mincount5-alpha0.05.bin
+2018-01-22 15:22:22,400 : INFO : loaded (2431734, 200) matrix from word2vec/data/full_pubmed_lowercase-vector-ng10-hs0-dim200-textwin30-subsample4-mincount5-alpha0.05.bin
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+('total, seen, unseen :: ', 347, 344, 3)
+('spearman_coeff :: ', SpearmanrResult(correlation=0.6951521427379147, pvalue=5.8088845730032283e-51))
+('pearson coeff ::', (0.69744533972554423, 2.0059299002262764e-51))
+('for file :: ', 'results/subset_original_files_with_mean/coverdSimilarPairs.csv')
+---------------------------------------------------------------
+('total, seen, unseen :: ', 356, 351, 5)
+('spearman_coeff :: ', SpearmanrResult(correlation=0.65770820900761717, pvalue=7.3607588725710753e-45))
+('pearson coeff ::', (0.64996913370305054, 1.6283038728010914e-43))
+('for file :: ', 'results/subset_original_files_with_mean/coverdRelatedPairs.csv')
+---------------------------------------------------------------
+('total, seen, unseen :: ', 30, 30, 0)
+('entropy :: ', 0.0099118092611928024)
+('for file :: ', 'results/subset_original_files_with_mean/coverdAnalogyPairs.csv')
+---------------------------------------------------------------
+('total, seen, unseen :: ', 347, 344, 3)
+('entropy :: ', 0.17104957498827908)
+('for file :: ', 'results/subset_original_files_with_mean/coverdBmassPairs.csv')
+---------------------------------------------------------------
+('res_mean_similar :: ', [0.6951521427379147, 0.69744533972554423])
+('res_mean_related :: ', [0.65770820900761717, 0.64996913370305054])
+('res_wo_mean_analogy :: ', 0.0099118092611928024)
+('res_wo_mean_bmass :: ', 0.17104957498827908)
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
